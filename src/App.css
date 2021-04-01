@@ -1,5 +1,6 @@
-.App {
+.App, body {
   text-align: center;
+  height: 100vh;
 }
 
 .App-logo {
@@ -23,7 +24,16 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+header
+{
+  width: 100%;
+  height: 66px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #183D61;
+  color: white;
+}
 .App-link {
   color: #61dafb;
 }
@@ -36,3 +46,363 @@
     transform: rotate(360deg);
   }
 }
+/*--------------GENERAL----------------*/
+
+
+/*--------------GENERAL FIN----------------*/
+
+
+
+/*--------------DASHBORAD------------------*/
+.DashboardLeft
+{
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-left: 150px;
+}
+.Dashboard
+{
+  display: flex;
+  flex-direction: line;
+  justify-content: space-between;
+  width: 85vw;
+}
+.Dashboard h1
+{
+  margin-top: 350px;
+  color: #0F4261;
+}
+.chat
+{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px 0px;
+}
+.chatColumn
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.greenCircle
+{
+  width: 20px;
+  height: 20px;
+  background-color: #3AAA35;
+  border-radius: 15px;
+  margin-top: 20px;
+
+}
+.chatColumn h2, .chatColumn p
+{
+  margin: 0px;
+}
+.chatLine
+{
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.chatLine img{
+  height: 70px;
+  width: 70px;
+}
+.Firm
+{
+  width: 530px;
+  height: 112px;
+  background-color: #F9F9F9;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
+  margin: 30px;
+  padding: 15px;
+}
+.Firm h2, .Firm p 
+{
+  margin: 0px;
+}
+.FirmColumn
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.FirmCircle
+{
+  height: 38px;
+  width: 38px;
+  background-color: #0085BE;
+  border-radius: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ProgressBar
+{
+  background-image: url('./images/progressBar.png');
+  height: 90px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*--------------DASHBORAD FIN------------------*/
+/*---------------NAVBAR--------------*/
+.app{
+  display: flex;
+  flex-direction: row;
+}
+/*Nav bar1*/
+.NavBar1Reduced
+{
+  width: 90px;
+  background-color: #0F4261;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 3%;
+}
+.NavBar1
+{
+  width: 300px;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0F4261;
+}
+.NavBar2Line
+{
+  display: flex;
+  flex-direction: row;
+
+}
+.NavBar2
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 9%;
+}
+.NavBar2 p 
+{
+  font-size: 26px;
+}
+.icone
+{
+  margin:20px 0px;
+}
+.icone p, .Link
+{
+  text-decoration: none;
+  color:black;
+  margin: 0px;
+}
+.iconeSelected
+{
+  width: 90px;
+  background-color: white;
+}
+.Links
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  height: 100vh;
+}
+.Links p
+{
+  font-size: 24px;
+}
+/*Nav bar2*/
+/*---------------NAVBAR FIN--------------*/
+
+
+
+
+/*---------------Mails--------------*/
+/*General*/
+.Mail
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+/*Cercle*/
+
+/*Cercle sélectionné*/
+
+/*Drag & Drop*/
+select
+{
+  background-color: #ECECEC;
+  border: none;
+  border-radius: 10px;
+  height: 25px;
+  color: black;
+  font-weight: 600;
+}
+.DragNDropBar
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  height: 90vh;
+background-color: #F1FAFE;
+}
+.DragComponent{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 10px 0px 10px 100px;
+}
+/*Mail search bar*/
+.mailSearchBar
+{
+  width: 256px;
+  padding: 0px 20px;
+  height: 43px;
+  background-color: #ECECEC;
+  margin:0px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: none;
+}  
+.defaultPad
+{
+  height: 1vh;
+  width: 100%;
+  background-color: white;
+}
+.hoverPad
+{
+  height: 5vh;
+  width: 100%;
+  background-color: cadetblue;
+}
+/*Mail selectionné*/
+
+/*Mail template*/
+
+/*Mail page*/
+.MailPage
+{
+  height: 80vh;
+  width: 30vw;
+  background-color: white;
+  filter: drop-shadow(-10px 0px 40px rgba(0, 0, 0, 0.1));
+}
+.MailSelectionButton
+{
+  width: 296px;
+  height: 91px;
+  background-color: #D3E3EA;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.MailListContainer
+{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.MailSelectionButton p{
+  margin-left: 20px;  
+}
+
+.MailTemplateTitle
+{
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+.MailBar
+{
+  width: 371px;
+  height: 778px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.mailModelSelcted
+{
+  width: 370px;
+  background-color: #F1FAFE;
+  border-radius: 10px 0px 0px 10px;
+  border-left: 10px solid #F1FAFE;
+  margin-bottom: 20px;
+  
+}
+.mailContainer
+{
+  height: 850px;
+  background-color: #F1FAFE;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.RightBar
+{
+  width: 430px;
+  background-color: #FAFAFA;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.15);
+  height: 100vh;
+  float: right;
+  position: absolute;
+  right: 0px;
+}
+.RightBarLine
+{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.RightBarLine div
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+/*Barre de recherche*/
+/*---------------Mails FIN--------------*/
